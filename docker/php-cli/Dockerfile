@@ -17,3 +17,9 @@ COPY ./conf.d /usr/local/etc/php/conf.d
 RUN apk add bash
 
 WORKDIR /app
+
+
+
+
+
+

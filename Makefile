@@ -11,7 +11,7 @@ docker-build: \
 	docker-build-php-cli
 
 up:
-	@docker-compose up -d ${PHP_FMP_CONTAINER_NAME} ${NGINX_CONTAINER_NAME}
+	@docker-compose up -d ${PHP_FMP_CONTAINER_NAME} ${NGINX_CONTAINER_NAME} ${MARIADB_CONTAINER_NAME}
 
 down:
 	@docker-compose down --remove-orphans
